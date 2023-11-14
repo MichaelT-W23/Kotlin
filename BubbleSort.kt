@@ -3,8 +3,11 @@
 
 fun bubbleSort(array: IntArray): IntArray {
     val n = array.size
-    for (i in 0 until n - 1) {
-        for (j in 0 until n - i - 1) {
+
+    for (i in 0 until n - 1) //Iterates in reverse order 
+    { 
+        for (j in 0 until n - i - 1) //Iterates in order 
+        {  
             if (array[j] > array[j + 1]) {
                 val temp = array[j]
                 array[j] = array[j + 1]
@@ -12,6 +15,7 @@ fun bubbleSort(array: IntArray): IntArray {
             }
         }
     }
+    
     return array
 }
 

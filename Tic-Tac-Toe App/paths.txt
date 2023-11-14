@@ -1,0 +1,9 @@
+These are the paths where to add these 4 files in Android Studio
+
+app -> java -> com.example.tictactoe -> MainActivity.kt
+
+app -> res -> layout -> add activity_main.xml 
+
+app -> res -> values -> add styles.xml (should be added as values resource file)
+
+Grade Scripts -> add the text in "AddToBuildGradle" to build.gradle.kts (Module :app)
