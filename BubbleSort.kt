@@ -1,4 +1,4 @@
-//kotlinc -d bin/BubbleSort.jar BubbleSort.kt
+//kotlinc -include-runtime -d bin/BubbleSort.jar BubbleSort.kt
 //java -jar bin/BubbleSort.jar
 
 fun bubbleSort(array: IntArray): IntArray {

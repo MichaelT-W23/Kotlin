@@ -1,5 +1,5 @@
 
-//kotlinc -d bin/BinarySearch.jar BinarySearch.kt
+//kotlinc -include-runtime -d bin/BinarySearch.jar BinarySearch.kt
 //java -jar bin/BinarySearch.jar
 
 fun binarySearch(lst: List<Int>, target: Int): Boolean {
