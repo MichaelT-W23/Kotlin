@@ -1,4 +1,3 @@
-
 //kotlinc -include-runtime -d bin/BinarySearch.jar BinarySearch.kt
 //java -jar bin/BinarySearch.jar
 
@@ -12,7 +11,7 @@ fun binarySearch(lst: List<Int>, target: Int): Boolean {
         
         //Could of used an if else statment. More language specific 
         when {
-            target < lst[mid] -> last = mid - 1
+            target < lst[mid] -> last = mid - 1 //If target is less than val in middle of list. Last gets mid - 1.
             target > lst[mid] -> first = mid + 1
             else -> return true
         }
